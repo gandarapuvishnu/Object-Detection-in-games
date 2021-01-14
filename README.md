@@ -19,6 +19,7 @@ Steps:
     - Resolution: 1280x800
     - Refresh rate: 60hz 
     - Preset settings: LOW
+    - At top left corner
 
 10. Run 'python main.py'
 
