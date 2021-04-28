@@ -1,33 +1,37 @@
-# Object-Detection-in-games
+# Object-detection-in-games
 
-Steps:
-1. Install Visual C++ build tools
-2. Download CUDA(10.1) and cuDNN(7.6)
-3. Install CUDA
-4. Copy the files from cuDNN to CUDA directory as follows :
-		..\cuda\bin\cudnn64_7.dll to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin
-		..\cuda\include\cudnn.h to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include
-		..\cuda\lib\x64\cudnn.lib to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib
-
-5. Clone this repo
-6. Install Python 3.8
-7. Make a new python virtual environment
-8. Open Terminal in this environment and run "pip install -r requirement.txt"
-9. Set the Game's display window to:
-    - Window Mode: Windowed
-    - Aspect ratio: 16:10
-    - Resolution: 1280x800
-    - Refresh rate: 60hz 
-    - Preset settings: LOW
-    - At top left corner
-
-10. Run 'python main.py'
-
--Test images-
-
-![ss1](https://user-images.githubusercontent.com/52231690/104280957-b5821a80-54d2-11eb-9763-4c7883e0d582.jpg)
+Requirements
+    
+    PC Video game
+    GPU with CUDA enabled
 
 
-![ss2](https://user-images.githubusercontent.com/52231690/104280978-bdda5580-54d2-11eb-9d40-231e2d0491a5.jpg)
+Steps
 
+    Install Visual C++ build tools
+    Download CUDA(10.1) and cuDNN(7.6)
+    Install Python 3.8    
+    Install CUDA
+    Copy the files from cuDNN to CUDA directory as follows :
+        ..\cuda\bin\cudnn64_7.dll to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin
+        ..\cuda\include\cudnn.h to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include
+        ..\cuda\lib\x64\cudnn.lib to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib
+    Clone this repo
+    Make a new python virtual environment
+    Open Terminal in this environment and run "pip install -r requirements.txt"
+    Set the Game's display window to:
+     - Window Mode: Windowed
+     - Aspect ratio: 16:10
+     - Resolution: 1600:1200
+     - Refresh rate: 60hz 
+     - Preset settings: LOW
+     - At top left corner    
+     Run 'python main.py'
+
+
+-Test images (from GTAV) -
+
+![knf](https://user-images.githubusercontent.com/52231690/116390838-10e6d700-a83c-11eb-916e-d7ade18ee6dc.png)
+
+![57fieb](https://user-images.githubusercontent.com/52231690/116390825-0debe680-a83c-11eb-85c5-216670861f17.gif)
 
